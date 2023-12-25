@@ -1,10 +1,15 @@
+import Image from "next/image";
+
 export const Images = () => {
   return (
     <div className=" h-full flex items-center gap-10 relative">
       <section className="h-[425px] w-[425px] items-center">
         <div className="absolute inset-0 h-[425px] w-[425px]">
-          <img
-            src="/images/man1.jpg"
+          <Image
+            src="/images/man5.jpg"
+            alt=""
+            height={425}
+            width={425}
             className="object-cover h-full w-full rounded-xl overflow-y-clip"
           />
         </div>
@@ -27,8 +32,11 @@ export const Images = () => {
       </section>
       <section className="h-[425px] w-[150px] items-center">
         <div className="absolute ml-[460px] inset-0 h-[425px] w-[150px]">
-          <img
-            src="/images/man4.jpg"
+          <Image
+            src="/images/man.jpg"
+            alt=""
+            height={425}
+            width={150}
             className="object-cover h-full w-full rounded-xl overflow-y-clip"
           />
         </div>
@@ -45,8 +53,11 @@ export const Images = () => {
       </section>
       <section className="h-[425px] w-[150px] items-center">
         <div className="absolute ml-[660px] inset-0 h-[425px] w-[150px]">
-          <img
-            src="/images/man5.jpg"
+          <Image
+            src="/images/woman1.jpeg"
+            alt=""
+            height={425}
+            width={150}
             className="object-cover h-full w-full rounded-xl overflow-y-clip"
           />
         </div>
@@ -54,7 +65,7 @@ export const Images = () => {
           <div className="pt-72">
             <div className="flex items-center justify-between">
               <div className="flex-col flex items-start -rotate-90">
-                <h3 className="font-bold text-base">Shubh Mehrotra</h3>
+                <h3 className="font-bold text-base">Ananya Gupta</h3>
                 <p className="text-sm">Frontend Designer at Paypal</p>
               </div>
             </div>

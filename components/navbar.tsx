@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export const Navbar = () => {
   return (
     <nav className="absolute top-0 left-0 flex justify-between items-center w-full h-[80px] px-24">
       <div className="flex items-center gap-2">
         <div className="w-5 h-5 flex items-end">
-          <img src="/images/arrow3.png" />
+          <Image src="/images/arrow3.png" alt="" height={25} width={25} />
         </div>
         <div className="flex items-end font-bold mt-1.5 text-green-900 text-lg">
           Switch.blabla
