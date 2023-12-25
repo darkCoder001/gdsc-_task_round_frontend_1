@@ -22,8 +22,9 @@ export const Images = () => {
               </div>
               <div className="flex-col flex w-[150px]">
                 <p className="text-xs text-slate-100">
-                  " I aspired to be at Google and switch.blabla helped me get
-                  there "
+                  {
+                    " I aspired to be at Google and switch.blabla helped me get there "
+                  }
                 </p>
               </div>
             </div>
